@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         // Création du zoo
-        Zoo monZoo = new Zoo("Zoo de la Ville");
+        Zoo monZoo = new Zoo("Zoo de Marie");
 
         // Création des enclos
         Enclos enclosLions = new Enclos("Territoire des Lions", 1000);
@@ -15,7 +15,7 @@ public class Main {
         Lion simba = new Lion("Simba", 5, 190.5, true);
         Lion nala = new Lion("Nala", 4, 160.2, false);
         Singe kong = new Singe("Kong", 8, 100.0, "Gorille");
-        Singe cheeta = new Singe("Cheeta", 4, 45.5, "Chimpanzé");
+        Singe cheeta = new Singe("Paf", 4, 45.5, "Chimpanzé");
 
         // Ajout des animaux dans leurs enclos
         enclosLions.ajouterAnimal(simba);
