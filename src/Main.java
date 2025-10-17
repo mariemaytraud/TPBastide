@@ -15,13 +15,13 @@ public class Main {
         Lion simba = new Lion("Simba", 5, 190.5, true);
         Lion nala = new Lion("Nala", 4, 160.2, false);
         Singe kong = new Singe("Kong", 8, 100.0, "Gorille");
-        Singe cheeta = new Singe("Paf", 4, 45.5, "Chimpanzé");
+        Singe paf = new Singe("Paf", 4, 45.5, "Chimpanzé");
 
         // Ajout des animaux dans leurs enclos
         enclosLions.ajouterAnimal(simba);
         enclosLions.ajouterAnimal(nala);
         enclosSinges.ajouterAnimal(kong);
-        enclosSinges.ajouterAnimal(cheeta);
+        enclosSinges.ajouterAnimal(paf);
 
         // Démonstration des fonctionnalités
         System.out.println("\n=== État du zoo ===");
